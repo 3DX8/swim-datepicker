@@ -183,7 +183,7 @@ export const CALENDAR_VALUE_ACCESSOR: any = {
     .datepicker-container .datepicker-calendar .datepicker-calendar-top {
       width: 100%;
       height: 80px;
-      background: #099268;
+      background: #0073ba;
       display: inline-block;
       position: relative; }
       .datepicker-container .datepicker-calendar .datepicker-calendar-top .year-title {
@@ -256,7 +256,7 @@ export const CALENDAR_VALUE_ACCESSOR: any = {
           border-radius: 50%;
           cursor: pointer; }
           .datepicker-container .datepicker-calendar .datepicker-calendar-container .datepicker-calendar-days-container .day:hover:not(.disabled), .datepicker-container .datepicker-calendar .datepicker-calendar-container .datepicker-calendar-days-container .day.selected {
-            background: #099268;
+            background: #0073ba;
             color: #FFFFFF !important; }
           .datepicker-container .datepicker-calendar .datepicker-calendar-container .datepicker-calendar-days-container .day.disabled {
             pointer-events: none; }
@@ -280,7 +280,7 @@ export const CALENDAR_VALUE_ACCESSOR: any = {
           .datepicker-container .datepicker-calendar .datepicker-calendar-container
           .datepicker-calendar-years-container .year:hover, .datepicker-container .datepicker-calendar .datepicker-calendar-container
           .datepicker-calendar-years-container .year.selected {
-            background: #099268;
+            background: #0073ba;
             color: #FFFFFF !important; }
       .datepicker-container .datepicker-calendar .datepicker-calendar-container .datepicker-buttons {
         width: 235px;
@@ -290,8 +290,8 @@ export const CALENDAR_VALUE_ACCESSOR: any = {
           width: 100%;
           outline: none;
           display: inline-block;
-          border: 1px solid #099268;
-          background: #099268;
+          border: 1px solid #0073ba;
+          background: #0073ba;
           color: #FFFFFF;
           margin-right: 5px;
           border-radius: 5px;
@@ -300,9 +300,9 @@ export const CALENDAR_VALUE_ACCESSOR: any = {
           padding: 5px 10px; }
           .datepicker-container .datepicker-calendar .datepicker-calendar-container .datepicker-buttons button.u-is-secondary {
             background: #FFFFFF;
-            color: #099268; }
+            color: #0073ba; }
             .datepicker-container .datepicker-calendar .datepicker-calendar-container .datepicker-buttons button.u-is-secondary:hover {
-              color: #099268; }
+              color: #0073ba; }
 
   `],
   providers: [CALENDAR_VALUE_ACCESSOR]
