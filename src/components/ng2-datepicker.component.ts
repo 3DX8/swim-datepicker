@@ -82,11 +82,15 @@ export const CALENDAR_VALUE_ACCESSOR: any = {
 @Component({
   selector: 'ng2-datepicker',
   template: `
+
   <div class="datepicker-container u-is-unselectable">
     <div class="datepicker-input-container">
-      <input type="text" class="datepicker-input" [(ngModel)]="date.formatted">
-      <div class="datepicker-input-icon" (click)="toggle()">
+    <div class="datepicker-input-icon" (click)="toggle()">
         <i class="ion-ios-calendar-outline"></i>
+      </div>
+      <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+        <input id="ng2-datepicker" type="text" class="datepicker-input mdl-textfield__input" [(ngModel)]="date.formatted">
+        <label class="mdl-textfield__label" for="ng2-datepicker">Request Date*</label>
       </div>
     </div>
     <div class="datepicker-calendar" *ngIf="opened">
