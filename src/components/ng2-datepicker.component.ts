@@ -150,7 +150,7 @@ export const CALENDAR_VALUE_ACCESSOR: any = {
     display: inline-block; }
     .datepicker-container .datepicker-input-container .datepicker-input {
       display: inline-block;
-      width: 100%;
+      width: 200px;
       margin-right: 15px;
       border: none;
       outline: none;
