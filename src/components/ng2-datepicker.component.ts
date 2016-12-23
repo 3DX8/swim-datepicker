@@ -301,7 +301,15 @@ export const CALENDAR_VALUE_ACCESSOR: any = {
           border-radius: 4px;
           cursor: pointer;
           text-align: center;
-          padding: 5px 10px; }
+          padding: 5px 10px;
+          height: 36px;
+          font-family: "Proxima Nova";
+          font-size: 14px;
+          font-weight: 300;
+          font-style: normal;
+          font-stretch: normal;}
+          .datepicker-container .datepicker-calendar .datepicker-calendar-container .datepicker-buttons button:last-of-type {
+          margin-right:0!important;}
           .datepicker-container .datepicker-calendar .datepicker-calendar-container .datepicker-buttons button.u-is-secondary {
             background: #FFFFFF;
             color: #0073ba; }
