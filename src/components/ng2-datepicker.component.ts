@@ -177,7 +177,7 @@ export const CALENDAR_VALUE_ACCESSOR: any = {
     -ms-user-select: none;
     user-select: none;
     width: 300px;
-    top: 56px;
+    top: 60px;
     position: absolute;
     z-index: 99;
     background: #FFFFFF;
@@ -216,7 +216,7 @@ export const CALENDAR_VALUE_ACCESSOR: any = {
         cursor: pointer; }
     .datepicker-container .datepicker-calendar .datepicker-calendar-container {
       display: inline-block;
-      width: 100%;
+      width: 90%;
       padding: 15px; }
       .datepicker-container .datepicker-calendar .datepicker-calendar-container .datepicker-calendar-month-section {
         width: 100%;
@@ -232,7 +232,7 @@ export const CALENDAR_VALUE_ACCESSOR: any = {
           .datepicker-container .datepicker-calendar .datepicker-calendar-container .datepicker-calendar-month-section i:last-child {
             margin-right: 12px; }
       .datepicker-container .datepicker-calendar .datepicker-calendar-container .datepicker-calendar-day-names {
-        width: 230px;
+        width: 100%;
         margin-top: 10px;
         display: inline-block;
         border: 1px solid transparent; }
@@ -243,7 +243,7 @@ export const CALENDAR_VALUE_ACCESSOR: any = {
           width: calc(100% / 7);
           text-align: center; }
       .datepicker-container .datepicker-calendar .datepicker-calendar-container .datepicker-calendar-days-container {
-        width: 230px;
+        width: 100%;
         margin-top: 5px;
         display: inline-block;
         border: 1px solid transparent; }
@@ -276,7 +276,7 @@ export const CALENDAR_VALUE_ACCESSOR: any = {
           float: left;
           font-size: 14px;
           color: #000000;
-          width: calc(100% / 4);
+          width: 50px;
           height: 50px;
           text-align: center;
           border-radius: 50%;
@@ -287,7 +287,7 @@ export const CALENDAR_VALUE_ACCESSOR: any = {
             background: #0073ba;
             color: #FFFFFF !important; }
       .datepicker-container .datepicker-calendar .datepicker-calendar-container .datepicker-buttons {
-        width: 235px;
+        width: 100%;
         display: flex;
         justify-content: center; }
         .datepicker-container .datepicker-calendar .datepicker-calendar-container .datepicker-buttons button {
@@ -298,7 +298,7 @@ export const CALENDAR_VALUE_ACCESSOR: any = {
           background: #0073ba;
           color: #FFFFFF;
           margin-right: 5px;
-          border-radius: 5px;
+          border-radius: 4px;
           cursor: pointer;
           text-align: center;
           padding: 5px 10px; }
