@@ -58,7 +58,7 @@ export class DatePickerOptions {
     this.maxDate = obj && obj.maxDate ? obj.maxDate : null;
     this.initialDate = obj && obj.initialDate ? obj.initialDate : null;
     this.firstWeekdaySunday = obj && obj.firstWeekdaySunday ? obj.firstWeekdaySunday : false;
-    this.format = obj && obj.format ? obj.format : 'YYYY-MM-DD';
+    this.format = obj && obj.format ? obj.format : 'DD-MM-YYYY';
   }
 }
 
@@ -91,6 +91,7 @@ export const CALENDAR_VALUE_ACCESSOR: any = {
       <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
         <input id="ng2-datepicker" type="text" class="datepicker-input mdl-textfield__input" [(ngModel)]="date.formatted">
         <label class="mdl-textfield__label" for="ng2-datepicker">Request Date*</label>
+        <i class="material-icons" tabindex="-1" (click)="toggle()">keyboard_arrow_down</i>
       </div>
     </div>
     <div class="datepicker-calendar" *ngIf="opened">
@@ -149,13 +150,12 @@ export const CALENDAR_VALUE_ACCESSOR: any = {
     display: inline-block; }
     .datepicker-container .datepicker-input-container .datepicker-input {
       display: inline-block;
-      width: 160px;
+      width: 100%;
       margin-right: 15px;
       border: none;
       outline: none;
       border-bottom: 1px solid #ced4da;
       font-size: 14px;
-      color: #000000;
       text-align: center; }
       .datepicker-container .datepicker-input-container .datepicker-input::-webkit-input-placeholder {
         color: #343a40; }
@@ -176,8 +176,8 @@ export const CALENDAR_VALUE_ACCESSOR: any = {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    width: 250px;
-    top: 40px;
+    width: 300px;
+    top: 56px;
     position: absolute;
     z-index: 99;
     background: #FFFFFF;
@@ -217,7 +217,7 @@ export const CALENDAR_VALUE_ACCESSOR: any = {
     .datepicker-container .datepicker-calendar .datepicker-calendar-container {
       display: inline-block;
       width: 100%;
-      padding: 10px; }
+      padding: 15px; }
       .datepicker-container .datepicker-calendar .datepicker-calendar-container .datepicker-calendar-month-section {
         width: 100%;
         display: flex;
