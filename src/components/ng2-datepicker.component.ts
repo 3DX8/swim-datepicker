@@ -90,7 +90,7 @@ export const CALENDAR_VALUE_ACCESSOR: any = {
       </div>
       <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
         <input id="ng2-datepicker" type="text" class="datepicker-input mdl-textfield__input" [(ngModel)]="date.formatted">
-        <label class="mdl-textfield__label" for="ng2-datepicker">Request Date*</label>
+        <label class="mdl-textfield__label" for="ng2-datepicker">{{title}}</label>
         <i class="material-icons" tabindex="-1" (click)="toggle()">keyboard_arrow_down</i>
       </div>
     </div>
@@ -155,8 +155,8 @@ export const CALENDAR_VALUE_ACCESSOR: any = {
       border: none;
       outline: none;
       border-bottom: 1px solid #ced4da;
-      font-size: 14px;
-      text-align: center; }
+      font-size: 16px;
+      text-align: left; }
       .datepicker-container .datepicker-input-container .datepicker-input::-webkit-input-placeholder {
         color: #343a40; }
       .datepicker-container .datepicker-input-container .datepicker-input::-moz-placeholder {
