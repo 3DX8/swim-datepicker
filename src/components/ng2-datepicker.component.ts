@@ -254,7 +254,7 @@ export const CALENDAR_VALUE_ACCESSOR: any = {
           float: left;
           font-size: 14px;
           color: #000000;
-          width: calc(100% / 7);
+          width: 33px;
           height: 33px;
           text-align: center;
           border-radius: 50%;
