@@ -149,13 +149,13 @@ export const CALENDAR_VALUE_ACCESSOR: any = {
     display: inline-block; }
     .datepicker-container .datepicker-input-container .datepicker-input {
       display: inline-block;
-      width: 200px;
-      margin-right: 15px;
       border: none;
       outline: none;
       border-bottom: 1px solid #ced4da;
       font-size: 16px;
-      text-align: left; }
+      text-align: left;
+      margin-left: 48px;
+      width: calc(100% - 48px); }
       .datepicker-container .datepicker-input-container .datepicker-input::-webkit-input-placeholder {
         color: #343a40; }
       .datepicker-container .datepicker-input-container .datepicker-input::-moz-placeholder {
